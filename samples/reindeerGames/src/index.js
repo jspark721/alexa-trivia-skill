@@ -1,10 +1,7 @@
 /**
  Copyright 2014-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-
  Licensed under the Apache License, Version 2.0 (the "License"). You may not use this file except in compliance with the License. A copy of the License is located at
-
  http://aws.amazon.com/apache2.0/
-
  or in the "license" file accompanying this file. This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
  */
 
@@ -21,149 +18,145 @@
  */
 var questions = [
     {
-        "Reindeer have very thick coats, how many hairs per square inch do they have?": [
-            "13,000",
-            "1,200",
-            "5,000",
-            "700",
-            "1,000",
-            "120,000"
+        "What was the first season in the NFL for the Seattle Seahawks? ": [
+            "1976",
+            "1981",
+            "1974",
+            "1973"
         ]
     },
     {
-        "The 1964 classic Rudolph The Red Nosed Reindeer was filmed in:": [
-            "Japan",
-            "United States",
-            "Finland",
-            "Germany"
+        "Which team did the Seahawks beat for their first Super Bowl Win?": [
+            "Denver Broncos",
+            "New England Patriots",
+            "Pittsburg Steelers",
+            "Green Bay Packers"
         ]
     },
     {
-        "Santas reindeer are cared for by one of the Christmas elves, what is his name?": [
-            "Wunorse Openslae",
-            "Alabaster Snowball",
-            "Bushy Evergreen",
-            "Pepper Minstix"
+        "When did Blitz make his debut as the Seahawks mascot?": [
+            "2001",
+            "1997",
+            "2005",
+            "1999"
         ]
     },
     {
-        "If all of Santas reindeer had antlers while pulling his Christmas sleigh, they would all be:": [
-            "Girls",
-            "Boys",
-            "Girls and boys",
-            "No way to tell"
+        "What year did the Seahawks record their first winning season?": [
+            "1978",
+            "1976",
+            "1980",
+            "1988"
         ]
     },
     {
-        "What do Reindeer eat?": [
-            "Lichen",
-            "Grasses",
-            "Leaves",
-            "Berries"
+        "Who was the original majority owner of the Seattle Seahawks?": [
+            "The Nordstrom Family",
+            "Paul Allen",
+            "Ken Behring and Ken Hofmann",
+            "Mike Holmgren"
         ]
     },
     {
-        "What of the following is not true?": [
-            "Caribou live on all continents",
-            "Both reindeer and Caribou are the same species",
-            "Caribou are bigger than reindeer",
-            "Reindeer live in Scandinavia and Russia"
+        "How was the team name Seahawks chosen in Seattle?": [
+            "Public naming contest",
+            "Governor of Washington",
+            "The NFL team owner's son",
+            "NFL Commisioner"
         ]
     },
     {
-        "In what year did Rudolph make his television debut?": [
-            "1964",
+        "Where did the Seahawks first call home?": [
+            "The Kingdome",
+            "Centrylink Stadium",
+            "Qwest Field",
+            "Seattle Stadium"
+        ]
+    },
+    {
+        "Who was the first head coach of the Seahawks?": [
+            "Jack Patera",
+            "Chuck Knox",
+            "Mike Holmgren",
+            "Mike McCormack"
+        ]
+    },
+    {
+        "When was the first winning season of the Seahawks?": [
+            "1978",
+            "1977",
+            "1980",
+            "1979"
+        ]
+    },
+    {
+        "What was the first season that the Seahawks made it to the playoffs in the NFL?": [
+            "1983",
             "1979",
-            "2000",
-            "1956"
+            "1981",
+            "1985"
         ]
     },
     {
-        "Who was the voice of Rudolph in the 1964 classic?": [
-            "Billie Mae Richards",
-            "Burl Ives",
-            "Paul Soles",
-            "Lady Gaga"
+        "Which Seahawks player was named NFL MVP for the 2005 season?": [
+            "Shaun Alexander",
+            "Mack Strong",
+            "Matt Hasselbeck",
+            "Joe Jurevicius"
         ]
     },
     {
-        "In 1939 what retailer used the story of Rudolph the Red Nose Reindeer?": [
-            "Montgomery Ward",
-            "Sears",
-            "Macys",
-            "Kmart"
+        "Who was the Seattle Seahawks coach during the 2005 season when they made it to their first Super Bowl?": [
+            "Mike Holmgren",
+            "Pete Carroll",
+            "Chuck Knox",
+            "Dennis Erickson"
         ]
     },
     {
-        "Santa's reindeer named Donner was originally named what?": [
-            "Dunder",
-            "Donny",
-            "Dweedle",
-            "Dreamy"
+        "Who has the most receiving yards for the Seattle Seahawks?": [
+            "Steve Largent",
+            "Brian Blades",
+            "Brian Blades",
+            "Doug Baldwin"
         ]
     },
     {
-        "Who invented the story of Rudolph?": [
-            "Robert May",
-            "Johnny Marks",
-            "Santa",
-            "J.K. Rowling"
+        "True or False: Russell Wilson became the shortest quarterback to have ever won the Super Bowl.":[
+            "True",
+            "False"
         ]
     },
     {
-        "In what location will you not find reindeer?": [
-            "North Pole",
-            "Lapland",
-            "Korvatunturi mountain",
-            "Finland"
+        "Who was the starting quarterback for the Seahawks in Super Bowl 40?": [
+            "Matt Hasselbeck",
+            "Jim Zorn",
+            "Russell Wilson",
+            "Dave Krieg"
         ]
     },
     {
-        "What Makes Santa's Reindeer Fly?": [
-            "Magical Reindeer Dust",
-            "Fusion",
-            "Amanita muscaria",
-            "Elves"
+        "Where did Russell Wilson go to college?": [
+            "Wisconsin",
+            "Michigan",
+            "Stanford",
+            "Texas"
         ]
     },
     {
-        "Including Rudolph, how many reindeer hooves are there?": [
-            "36",
-            "24",
-            "16",
-            "8"
+        "Where did Doug Baldwin go to college?": [
+            "Stanford",
+            "LSU",
+            "UCLA",
+            "Penn State"
         ]
     },
     {
-        "Santa only has one female reindeer. Which one is it?": [
-            "Vixen",
-            "Clarice",
-            "Cupid",
-            "Cupid"
-        ]
-    },
-    {
-        "In the 1964 classic Rudolph The Red Nosed Reindeer, what was the snowman narrators name?": [
-            "Sam",
-            "Frosty",
-            "Burl",
-            "Snowy"
-        ]
-    },
-    {
-        "What was Rudolph's father's name?": [
-            "Donner",
-            "Dasher",
-            "Blixen",
-            "Comet"
-        ]
-    },
-    {
-        "In the 1964 movie, What was the name of the coach of the Reindeer Games?": [
-            "Comet",
-            "Blixen",
-            "Donner",
-            "Dasher"
+        "What year did the Seahawks draft Bruce Irvin?": [
+            "2012",
+            "2010",
+            "2013",
+            "2011"
         ]
     },
     {
@@ -175,91 +168,131 @@ var questions = [
         ]
     },
     {
-        "In the 1964 movie, How did Donner, Rudolph's father, try to hide Rudolph's nose?": [
-            "Black mud",
-            "Bag",
-            "Pillow case",
-            "Sock"
+        "Who was the only running back selected before Marshawn Lynch in the 2007 NFL draft?": [
+            "Adrian Peterson",
+            "Chris Henry",
+            "Michael Bush",
+            "Tony Hunt"
         ]
     },
     {
-        "In the 1964 movie, what does the Misfit Elf want to be instead of a Santa Elf?": [
-            "Dentist",
-            "Reindeer",
-            "Toy maker",
-            "Candlestick maker"
+        "What position did Richard Sherman play in college before moving back to cornerback?": [
+            "Wide Receiver",
+            "Middle Linebacker",
+            "Tight End",
+            "Half Back"
         ]
     },
     {
-        "In the 1964 movie,what was the Bumble's one weakness?": [
-            "Could not swim",
-            "Always hungry",
-            "Candy canes",
-            "Cross eyed"
+        "How many retired numbers do the Seahawks have?": [
+            "4",
+            "3",
+            "2",
+            "1"
         ]
     },
     {
-        "In the 1964 movie, what is Yukon Cornelius really in search of?": [
-            "Peppermint",
-            "Gold",
-            "India",
-            "Polar Bears"
+        "In what city did Super Bowl 40 between the Seahawks and the Steelers take place?": [
+            "Detroit",
+            "Denver",
+            "Miami",
+            "Dallas"
         ]
     },
     {
-        "In the 1964 movie, why is the train on the Island of Misfit Toys?": [
-            "Square wheels",
-            "No Engine",
-            "Paint does not match",
-            "It does not toot"
+        "Who is the second in Seahawks history in touchdown passes?": [
+            "Matt Hasselbeck",
+            "Jim Zorn",
+            "Russell Wilson",
+            "Dave Krieg"
         ]
     },
     {
-        "In the 1964 movie, what is the name of the Jack in the Box?": [
-            "Charlie",
-            "Sam",
-            "Billy",
-            "Jack"
+        "Who did the Seahawks select in the sixth round of the 2011 draft from Clemson?": [
+            "Byron Maxwell",
+            "Russell Okung",
+            "Alvin Bailey",
+            "James Carpenter"
         ]
     },
     {
-        "In the 1964 movie, why did Santa Claus almost cancel Christmas?": [
-            "Storm",
-            "No snow",
-            "No toys",
-            "The Reindeer were sick"
+        "In the 2005 season, how many rushing touchdowns did Shaun Alexander have?": [
+            "27",
+            "20",
+            "25",
+            "21"
         ]
     },
     {
-        "In the 1964 movie, what animal noise did the elf make to distract the Bumble?": [
-            "Oink",
-            "Growl",
-            "Bark",
-            "Meow"
+        "In 2012, where did Marshawn Lynch rank among the league leaders in average rushing yards per game?": [
+            "3rd",
+            "4th",
+            "1st",
+            "2nd"
         ]
     },
     {
-        "In the 1964 movie, what is the name of the prospector?": [
-            "Yukon Cornelius",
-            "Slider Sam",
-            "Bumble",
-            "Jack"
+        "In what round of the 2012 draft did the Seahawks select Bruce Irvin?": [
+            "1st",
+            "3rd",
+            "5th",
+            "7th"
         ]
     },
     {
-        "How far do reindeer travel when they migrate?": [
-            "3000 miles",
-            "700 miles",
-            "500 miles",
-            "0 miles"
+        "There are two players in Seahawks history who have been named NFL Defensive Players of the Year. Cortez Kennedy and who?": [
+            "Kenny Easley",
+            "Rufus Porter",
+            "Jacob Green",
+            "Eugene Robinson"
         ]
     },
     {
-        "How fast can a reindeer run?": [
-            "48 miles per hour",
-            "17 miles per hour",
-            "19 miles per hour",
-            "14 miles per hour"
+        "Going into Week 17 of the 2013 NFL season, Richard Sherman lead the NFL in total interceptions. What is that number?": [
+            "8",
+            "7",
+            "10",
+            "12"
+        ]
+    },
+    {
+        "What was the Seahawks 2014 season record?": [
+            "12-4",
+            "10-6",
+            "13-3",
+            "11-5"
+        ]
+    },
+    {
+        "Who was the MVP for the Seahawks' Super Bowl 48 win against the Denver Broncos?" :[
+            "Malcolm Smith",
+            "Russell Wilson",
+            "Richard Sherman",
+            "Doug Baldwin"
+        ]
+    },
+    {
+        "What was the winning score for the Seahawks against the Broncos in the Super Bowl 48?" :[
+            "43-8",
+            "27-21",
+            "43-24",
+            "41-3"
+        ]  
+    },
+    {
+        "How many times have the Seahawks won the NFC West division?": [
+            "7",
+            "3",
+            "2",
+            "5"
+        ]  
+    },
+    {
+        "Which coach has won the most games in Seahawks history?": [
+            "Mike Holmgren",
+            "Pete Carroll",
+            "Chuck Knox",
+            "Dennis Erickson"
         ]
     }
 ];
@@ -275,9 +308,9 @@ exports.handler = function (event, context) {
          * prevent someone else from configuring a skill that sends requests to this function.
          */
 
-//     if (event.session.application.applicationId !== "amzn1.echo-sdk-ams.app.05aecccb3-1461-48fb-a008-822ddrt6b516") {
-//         context.fail("Invalid Application ID");
-//      }
+        if (event.session.application.applicationId !== "amzn1.ask.skill.09fc8d76-857e-478f-8f34-a2dc9ae3771f") {
+           context.fail("Invalid Application ID");
+        }
 
         if (event.session.new) {
             onSessionStarted({requestId: event.request.requestId}, event.session);
@@ -654,4 +687,3 @@ function buildResponse(sessionAttributes, speechletResponse) {
         response: speechletResponse
     };
 }
-
